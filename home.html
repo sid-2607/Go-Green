@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoGreeN - Home</title>
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="home.js" defer></script>
+    <script src="map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=myMap"></script>
+</head>
+ 
+<body>
+    <header class="header">
+        <h1 class="header-heading">GoGreeN</h1>
+        <H3 class="nav">
+                <a href="home.html" class="nav-txt"> Home </a>
+                <a href="about.html" class="nav-txt"> About Us </a>
+                <a href="blog.html" class="nav-txt"> Blog </a>
+                <a href="#bottom" class="nav-txt" title="Move to Contact" >Contact</a>
+                <a href="login.html" class="nav-txt"> Login </a>
+        </H3>
+    </header>
+
+    <div class="moving-header">
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            <p>To Join Our Community   <a href="signup.html"> @signup</a> Now.</p>
+        </marquee>
+    </div>
+
+    <div class="banner-container">
+        <img source src="banner.jpg">
+    </div>
+    
+
+
+
+    <div class="SDG">
+        Sustainable Development Goals
+    </div>
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+            <li class="SDG_box">
+                <div class="img"><img src="1Poverty.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>NO POVERTY</a>
+                <p>End poverty in all its forms everywhere</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="2Hunger.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Zero Hunger</a>
+                <p>End hunger,achieve food , security and improve nutrition and promote sustainable agriculture</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="3Health.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Good Health</a>
+                <p>Ensure healthy lives and promote well-being for all at all ages.</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="4Education.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Quality Education</a>
+                <p>Ensure inclusive and equitable quality education and promote life lojng learning opportunities for
+                    all</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="5Gender.jpg"NO POVERTY"
+                        draggable="false"></div>
+                <a>Gender Equality</a>
+                <p>Achieve gender equality and empower all women and girls </p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="6Water.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Clean Water and Sanitation</a>
+                <p>Ensure availability and sustainable management of water and sanitation for all</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="7Energy.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Affordable & Clean Energy</a>
+                <p>Ensure access to Affordable, reliable,sustainable and modern for all</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="8Growth.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Decent & Economic Growth</a>
+                <p>Promote sustained , inclusive and sustainable economic growth,full and productive employment and
+                    decent work for all</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="9Innovation.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Innovation & Infrastructure</a>
+                <p>Build recilient Infrastructure , promote inclusive and sustainable industrialisation and foster
+                    Innovation</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="10Inequalities.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Reduced inequalities</a>
+                <p>Reduce inequality within and among countries</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="11Communities.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Sustainable Cities</a>
+                <p>Make cities and human settlements inclusive, safe, resilient and sustainable</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="12Production.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Consumption and Production</a>
+                <p>Ensure sustainable consumption and production patterns</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="13Climate.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Climate action</a>
+                <p>Take urgent action to combat climate change and its impacts</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="14Life.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Life below Water</a>
+                <p>Conserve and sustainably use the oceans, seas and marine resources for sustainable Development</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="15Land.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Life on Land</a>
+                <p>Protect, restore and promote sustainable use of terrestrial ecosystems , sustainably manage
+                    forests,combat desertification and halt and reserve land degradation and halt biodiversity loss</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="16Peace.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Peace, Justice & Institutions</a>
+                <p>Promote peaceful and inclusive societies for sustainable Development,provide access to Justice for
+                    all and build effective, accountable and inclusive Institutions at all levels</p>
+            </li>
+            <li class="SDG_box">
+                <div class="img"><img src="17Partnership.jpg" alt="NO POVERTY"
+                        draggable="false"></div>
+                <a>Partnership for the Goals</a>
+                <p>Strengthen the means of implementation and revitalize the global partnership for sustainable
+                    Development</p>
+            </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    
+
+
+
+
+    <div class="UE">
+        Upcoming Events
+    </div>
+    <div class="event">           
+        <div class="event-img">
+            <img src="Event1.jpg">
+         </div>
+        <div class="event-content">
+            <ul><b>International Conf. on Environment and Life</b></ul>
+            <p>The aim of the Conference is to provide a platform to the researchers and practitioners from both academia as well as industry to meet the share cutting edge development in the field. .The conference provides a platform for professionals involved in Environment and Life Science to exchange knowledge and gain an insight into the state of the art in the current technology, techniques and solutions in Environment and Life Science as they have been developed and applied in different countries. Participants include a wide variety of stakeholders from research and academia, to industrial sectors.<br>
+                <br><b>13th-14th Feb 2023<br>Dubai, United Arab Emirates</p></b>
+            <button><a href="https://isfecc.org/Conference/66/ICELS/" target="_blank" class="button">Know More</a></button>
+        </div>
+    </div>
+    <div class="event">           
+        <div class="event-content">
+            <ul><b>EnviroTech Asia 2024</b></ul>
+            <p>The Organizing Committee welcomes participants from all over the world who are interested in developing professional ties to and/or exploring career opportunities in the region. The conference should serve as an ideal forum to establish relationships. The conference represents an informational international platform for accumulation of elite opinion on the projects and initiatives that are aimed at implementation of farsighted scientific research and development, it allows to present recent scientific and practical achievements to across the globe researchers.<br>
+                <br><b>06th-08th Feb 2024<br>Dr. Shyama Prasad Mukherjee Indoor Stadium</b></p>
+            <button><a href="https://envirotechasia.com/env/" target="_blank" class="button">Know More</a></button>
+        </div>
+        <div class="event-img">
+            <img src="Event2.png">
+         </div>
+    </div>
+
+    
+
+
+
+    <div class="RB">
+        Read Blogs
+    </div>
+    <div class="blog">           
+        <div class="blog-img">
+            <img src="4blog.jpg">
+         </div>
+        <div class="blog-content">
+            <ul><b>Unveiling the Green Revolution:</b><br>
+                A Journey to Sustainable Living</ul>
+            <p>In the quest for sustainable living, we unveil the Green Revolution. Journey<br>marked by conscious choices and innovation, harmonizing human life with the environment</p> 
+            <button><a href="blog.html" target="_blank" class="button">Know More</a></button>
+        </div>
+    </div>
+
+
+    <div class="C">
+        Contact
+    </div>
+    <div class="contact-container">
+        <div class="contact-card">
+            <div class="contact-card-header">
+                <img src="garv_bg.jpeg" class="contact-card-img" alt="">
+                <img src="Garv_pfp.jpg" class="contact-card-pfp" alt="">
+            </div>
+            <p>Garv Garg</p>
+            <a>B.Tech Computer Science</a>
+            <a>Fontend Designer</a>
+            <a>220345 (Group-6)</a>
+            <div class="contact-card-icons">
+                <a href="mailto:garv.garg.22cse@bmu.edu.in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/garv-garg-b00098225" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+                </svg>
+                </a>
+                <a href="https://twitter.com/_ubbagg" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-card-header">
+                <img src="aranav_bg.jpeg" class="contact-card-img" alt="">
+                <img src="aranav_pfp.jpg" class="contact-card-pfp" alt="">
+            </div>
+            <p>Aranav Kumar</p>
+            <a>B.Tech Computer Science</a>
+            <a>Fontend Designer</a>
+            <a>220485 (Group-6)</a>
+            <div class="contact-card-icons">
+                <a href="mailto:aranav.kumar.22cse@bmu.edu.in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                </a>
+                <a href="http://www.linkedin.com/in/aranav-kumar-a32948295" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+                </svg>
+                </a>
+                <a href="https://x.com/Aranav02287419?t=j89vywWgBy00InibEUYIeA&s=09" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-card-header">
+                <img src="Siddhant_bg.jpeg" class="contact-card-img" alt="">
+                <img src="Siddhant_pfp.jpeg" class="contact-card-pfp" alt="">
+            </div>
+            <p>Siddhant Tiwari</p>
+            <a>B.Tech Computer Science</a>
+            <a>Backend Designer</a>
+            <a>220333 (Group-6)</a>
+            <div class="contact-card-icons">
+                <a href="mailto:siddhantashwary.tiwari.22cse@bmu.edu.in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/siddhant-ashwary-tiwari/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+                </svg>
+                </a>
+                <a href="https://twitter.com/AshwarySiddhant" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="contact-card">
+            <div class="contact-card-header">
+                <img src="bhomik_bg.jpeg" class="contact-card-img" alt="">
+                <img src="bhomil_pfp.jpeg" class="contact-card-pfp" alt="">
+            </div>
+            <p>Bhomik Tomar</p>
+            <a>B.Tech Computer Science</a>
+            <a>Backend Designer</a>
+            <a>220475 (Group-6)</a>
+            <div class="contact-card-icons">
+                <a href="mailto:Bhomik.tomar.22cse@bmu.edu.in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/bhomik-tomar-514061261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"/>
+                </svg>
+                </a>
+                <a href="https://twitter.com/bhomiktomar04" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <a class="go-top smoothscroll" title="Back to Top" href="#top">
+    <div>
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </div>
+    </a>
+
+    
+    <footer>
+        <div class="footer-main">
+            <div class="row">  
+                <div class="footer-box-1">       
+                    <h2>GoGreeN</h2>
+                    <a href="https://www.bmu.edu.in/" target="_blank"><img src="BMU Logo-05.png" class="bmu-logo"></a><br><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.670452923416!2d76.8110519743117!3d28.247680501455246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d478e1d59b7fb%3A0xb1787ccb5563c223!2sBML%20Munjal%20University%20(BMU)!5e0!3m2!1sen!2sin!4v1701507111409!5m2!1sen!2sin" class="maps"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p>BML Munjal University,<br>67th Milestone, Gurugram, Haryana 122413<br>Tel: 18001036888</p>
+                </div>
+                <div class="footer-box-2">
+                    <h3>Follow Us</h3>
+                    <a href="https://twitter.com/BMLUniv" target="_blank">Twitter</a>
+                    <a href="https://in.linkedin.com/school/bml-munjal-university/" target="_blank">Linked in</a>
+                    <a href="https://instagram.com/bmlmunjaluniversity/?hl=en" target="_blank">Instagram</a>
+                </div>
+                <div class="footer-box-3">
+                    <h3>Get Connected</h3>
+                    <div class="footer-form">
+                    <input type="email" class="email" placeholder="Enter your email address" required=""> 
+                    <textarea name="Message" class="Message" placeholder="Message"></textarea>
+                    <input type="submit" class="submit" value="SUBMIT">
+                    </div>
+                </div>         
+            </div> 
+        </div> 
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span  style="color: rgba(255, 255, 255, 0.5);">&copy; 2023 Go Green</span> 
+                        <span  style="color: rgba(255, 255, 255, 0.5);">All rights reserved </span>
+                        <a href="mailto:info@gogreen.com">info@bmu.edu.in</a></span>                 
+                    </div>                       
+                </div>
+            </div>   
+        </div>
+    </footer>
+    
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
